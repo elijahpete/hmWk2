@@ -1,0 +1,212 @@
+:root{
+    --headerColor: rgba(100, 100, 100, 0.404);
+}
+
+
+
+*{
+    margin: 0%;
+    background-color: rgba(82, 2, 18, 0.699);
+    width: 100%;
+}
+header{
+    width: 100%;
+    padding-top: 5%;
+    height: 80px;
+    background-color: none;
+    overflow: hidden;
+}
+header h1{
+    background-color: var(--headerColor);
+    width: 10%;
+    float: left;
+    max-height: max-content;
+    padding-left: 5%;
+    margin-left: 5%;
+
+}  
+
+
+ header ul{
+    background-color:rgba(82, 2, 18, 0.699);
+    width: 25%;
+    float: right;
+    padding-right: 5%;
+    
+    
+}
+header ul li{
+    background-color: var(--headerColor);
+    display: inline;
+    font-size: 23px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#picTop{
+    width: 100%;
+    padding-bottom: 180px;
+    background-image: url(newimg.jpg);
+    position: relative;
+}
+#sectionMain{
+    width: 100%;
+    padding-bottom: 800px;
+}
+
+
+#sectionmain aside{
+    width: 20%;
+    padding: 500px;
+    float: left;
+}
+
+#mainContent{
+    float: right;
+    width: 79%;
+    height:800px;
+    
+}
+#sideBox{
+    border-right: black solid 8px;
+    width: 20%;
+    float: left ;
+    height:800px;
+    
+}
+#sideTitle{
+    display: block;
+    float: right;
+}
+#sideTitle li{
+padding: 0px;
+
+}
+.sideFormat{
+    height:150px;
+    padding-left: 70%;
+    width: 30px;
+    font-size: 30px;
+
+    color: turquoise;
+}
+.sideFormat1{
+    height:300px;
+    padding-left: 70%;
+    width: 30px;
+    font-size: 30px;
+    color: turquoise;
+}
+#img0{
+    float: none;
+    width: 98%;
+    height: 35%;
+    position: relative;
+    border: turquoise solid 3px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 60%;
+    
+} 
+#img0:hover{
+    opacity: 100%;
+
+}  
+#img1:hover{
+    opacity: 100%;
+
+}  
+#img2:hover{
+    opacity: 100%;
+
+}  
+#img3:hover{
+    opacity: 100%;
+
+}  
+#img4:hover{
+    opacity: 100%;
+
+}  
+#img1{
+  
+    float: right;
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 6%;
+    border: turquoise solid 3px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 55px;
+    opacity: 60%;
+}
+#img2{
+    float: right;
+ 
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 6%;
+    border: turquoise solid 3px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 55px;
+    opacity: 60%;
+   
+}
+
+#img3{
+    float: right;
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 6%;
+    border: turquoise solid 3px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 55px;
+    opacity: 60%;
+}
+#img4{
+    float: right;
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 6%;
+    border: turquoise solid 3px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 55px;
+    opacity: 60%;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(82, 2, 18, 0.699);
+}
+#aboutMePar{
+    text-indent:30px;
+    width: 75%;
+    color: turquoise;
+    padding-bottom: 5px;
+}
+#footerAside{
+    float: left;
+    width: 20%;
+    border-right: black solid 8px;
+    padding-bottom: 70px;
+    background-color: rgba(82, 2, 18, 0.699);
+}
+#footHeader{
+    float: right;
+    padding-right: 10%;
+    font-size: 28px;
+    width: 45%;
+    background-color: rgba(82, 2, 18, 0.699);
+    color: turquoise;
+}
+.contactInfo{
+    display: inline;
+    margin-top: 3%;
+    width: 100%;
+    
+}
+
+@media screen {
+    
+}
